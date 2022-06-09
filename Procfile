@@ -1,1 +1,1 @@
-web: gunicorn textutils.wsgi:application --log-file - --log-level debug
+web: gunicorn loginsystem.wsgi:application --log-file - --log-level debug
